@@ -27,8 +27,10 @@ docker-compose --version
     ```cmd
     git clone https://github.com/mohammad3tr/squid-docker-compse-.git
     ```
-2. Run compse up -d
-  
+2. Run
+```
+ compse up -d
+ ``` 
 
 
 ## Use 

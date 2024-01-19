@@ -28,9 +28,9 @@ docker-compose --version
     git clone https://github.com/mohammad3tr/squid-docker-compse-.git
     ```
 2. Run
-```
- docker-compse up -d
- ``` 
+    ```
+   docker-compse up -d
+    ``` 
 
 
 ## Use 
@@ -47,7 +47,7 @@ You can use the HTTP/HTTPS, ...  proxies on your local devices using **port forw
 ### in Linux
 
   1. run in terminal `ssh -vNL 3128:0.0.0.0:3128 root@<IP> -p <PORT>`
-  2.  Set `http/s_proxy` variable
+  2. Set `https_proxy` variable
    
     ```
     export {http,https}_proxy="http://127.0.0.1:3128"

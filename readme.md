@@ -29,7 +29,7 @@ docker-compose --version
     ```
 2. Run
 ```
- compse up -d
+ docker-compse up -d
  ``` 
 
 
